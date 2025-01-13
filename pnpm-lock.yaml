@@ -8,6 +8,12 @@ importers:
 
   .:
     dependencies:
+      '@fontsource-variable/inter':
+        specifier: ^5.1.1
+        version: 5.1.1
+      '@fontsource-variable/martian-mono':
+        specifier: ^5.1.1
+        version: 5.1.1
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -321,6 +327,12 @@ packages:
   '@eslint/plugin-kit@0.2.4':
     resolution: {integrity: sha512-zSkKow6H5Kdm0ZUQUB2kV5JIXqoG0+uH5YADhaEHswm664N9Db8dXSi0nMJpacpMf+MyyglF1vnZohpEg5yUtg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+
+  '@fontsource-variable/inter@5.1.1':
+    resolution: {integrity: sha512-OpXFTmiH6tHkYijMvQTycFKBLK4X+SRV6tet1m4YOUH7SzIIlMqDja+ocDtiCA72UthBH/vF+3ZtlMr2rN/wIw==}
+
+  '@fontsource-variable/martian-mono@5.1.1':
+    resolution: {integrity: sha512-GJaBDAT4myZEwxaALeRC40XdtnvGgtWE3i1fsltP1ryhiTy1dndNl/dLBxKDqoAodz2F8SKPfEnHr1NdJbDQxA==}
 
   '@humanfs/core@0.19.1':
     resolution: {integrity: sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA==}
@@ -1853,6 +1865,10 @@ snapshots:
   '@eslint/plugin-kit@0.2.4':
     dependencies:
       levn: 0.4.1
+
+  '@fontsource-variable/inter@5.1.1': {}
+
+  '@fontsource-variable/martian-mono@5.1.1': {}
 
   '@humanfs/core@0.19.1': {}
 
