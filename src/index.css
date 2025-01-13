@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Fonts from Design System */
+.text-preset-1 {
+  @apply font-mono font-bold text-[38px] leading-[120%] tracking-[-2px] md:text-[62px];
+}
+
+.text-preset-2 {
+  @apply font-mono font-semibold text-[34px] leading-[130%] tracking-[-2px] md:text-[50px];
+}
+
+.text-preset-3 {
+  @apply font-mono font-semibold text-[24px] leading-[110%] tracking-[-1px] md:text-[34px] md:leading-[130%];
+}
+
+.text-preset-4 {
+  @apply font-mono font-semibold text-[24px] leading-[110%] tracking-[-1px];
+}
+
+.text-preset-4--regular {
+  @apply font-mono font-normal text-[24px] leading-[110%] tracking-[-1px];
+}
+
+.text-preset-5 {
+  @apply font-sans font-normal text-[20px] leading-[140%] tracking-[-0.5px];
+}
+
+.text-preset-5--semibold {
+  @apply font-sans font-semibold text-[20px] leading-[140%] tracking-[-0.5px];
+}
+
+.text-preset-6 {
+  @apply font-mono font-semibold text-[16px] leading-[130%] tracking-[-1px] md:text-[18px];
+}
+
+.text-preset-7 {
+  @apply font-mono font-normal text-[14px] leading-[120%] tracking-[-1px];
+}
