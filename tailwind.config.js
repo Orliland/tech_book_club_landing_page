@@ -54,6 +54,10 @@ export default {
           "linear-gradient(107deg, #FF9A60 -11.37%, #062630 61.84%)",
         gradient: "linear-gradient(90deg, #FFE2D1 0%, #FFF5EF 100%)",
       },
+      boxShadow: {
+        primary:
+          "0px 0px 0px 3px rgba(255, 255, 255, 1), 0px 0px 0px 5px rgba(56, 81, 89, 1)", // neutral-700
+      },
     },
   },
   plugins: [],
