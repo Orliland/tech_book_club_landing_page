@@ -58,6 +58,9 @@ export default {
       boxShadow: {
         primary:
           "0px 0px 0px 3px rgba(255, 255, 255, 1), 0px 0px 0px 5px rgba(56, 81, 89, 1)", // neutral-700
+
+        alternate:
+          "0px 0px 0px 3px rgba(6, 38, 48, 1), 0px 0px 0px 5px rgba(230, 225, 223, 1)", // neutral-0
       },
     },
   },
