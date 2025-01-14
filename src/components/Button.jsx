@@ -6,7 +6,7 @@ export const Button = ({ children, type = "alternate" }) => {
     // TODO: check if w-full apply too for secondary
     primary:
       "text-neutral-900 bg-light-salmon-50 border-neutral-900 hover:bg-gradient focus:shadow-primary ",
-    alternate: "text-neutral-0 bg-neutral-900 border-neutral-0", // TODO: remove bg on production
+    alternate: "text-neutral-0 border-neutral-0 hover:bg-gradient2", // TODO: remove bg on production
   };
   return (
     <button

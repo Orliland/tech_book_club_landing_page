@@ -53,6 +53,7 @@ export default {
         "text-gradient":
           "linear-gradient(107deg, #FF9A60 -11.37%, #062630 61.84%)",
         gradient: "linear-gradient(90deg, #FFE2D1 0%, #FFF5EF 100%)",
+        gradient2: "linear-gradient(90deg, #385159 0%, #062630 100%)",
       },
       boxShadow: {
         primary:
