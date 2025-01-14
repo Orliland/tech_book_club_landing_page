@@ -17,6 +17,7 @@ export const Button = ({ children, type = "alternate" }) => {
       <img
         src={type === "primary" ? ArrowDownIcon : ArrowUpIcon}
         alt={children}
+        className="w-300 h-300"
       />
     </button>
   );
